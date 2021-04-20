@@ -1,2 +1,1 @@
-# UESTC216
-study
+# my-pytest-study

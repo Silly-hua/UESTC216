@@ -1,0 +1,72 @@
+{
+  "uid" : "2246921993231a05",
+  "name" : "test_foo[1000-0]",
+  "fullName" : "test_parametrize#test_foo",
+  "historyId" : "5036ddd1f2e68fdf320b3f8737e1e010",
+  "time" : {
+    "start" : 1618744811020,
+    "stop" : 1618744811021,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ef945b1537582dc9",
+      "name" : "stdout",
+      "source" : "ef945b1537582dc9.txt",
+      "type" : "text/plain",
+      "size" : 34
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_parametrize"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-RIERPE4G"
+  }, {
+    "name" : "thread",
+    "value" : "22744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_parametrize"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "0"
+  }, {
+    "name" : "b",
+    "value" : "1000"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2246921993231a05.json",
+  "parameterValues" : [ "0", "1000" ]
+}

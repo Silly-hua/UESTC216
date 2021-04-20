@@ -1,0 +1,87 @@
+{
+  "uid" : "1fe3161adf404653",
+  "name" : "test_two[参数1]",
+  "fullName" : "test_fixture.Test_fixtureFile#test_two",
+  "historyId" : "b03310c04c453d7c989c1a7f04550e28",
+  "time" : {
+    "start" : 1618744810917,
+    "stop" : 1618744810918,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "myfixture",
+    "time" : {
+      "start" : 1618744810916,
+      "stop" : 1618744810917,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "814a8ebaa720694d",
+      "name" : "stdout",
+      "source" : "814a8ebaa720694d.txt",
+      "type" : "text/plain",
+      "size" : 48
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_fixture"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_fixtureFile"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-RIERPE4G"
+  }, {
+    "name" : "thread",
+    "value" : "22744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_fixture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "myfixture",
+    "value" : "'参数1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1fe3161adf404653.json",
+  "parameterValues" : [ "'参数1'" ]
+}

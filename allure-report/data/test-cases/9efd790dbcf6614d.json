@@ -1,0 +1,59 @@
+{
+  "uid" : "9efd790dbcf6614d",
+  "name" : "test_add[bigint]",
+  "fullName" : "test_parametrize#test_add",
+  "historyId" : "3efe42854320ac2f127f7933f76211c2",
+  "time" : {
+    "start" : 1618744810988,
+    "stop" : 1618744810988,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_parametrize"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-RIERPE4G"
+  }, {
+    "name" : "thread",
+    "value" : "22744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_parametrize"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "100000"
+  }, {
+    "name" : "b",
+    "value" : "100000"
+  }, {
+    "name" : "expected",
+    "value" : "200000"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9efd790dbcf6614d.json",
+  "parameterValues" : [ "100000", "100000", "200000" ]
+}
